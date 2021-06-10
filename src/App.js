@@ -56,7 +56,6 @@ function App() {
             cols="30"
             rows="10"
             autoComplete="off"
-            maxLength="350"
             required
             onChange={(e) => {
               setReview(e.target.value);
